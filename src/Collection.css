@@ -1,0 +1,13 @@
+.collection {
+    display: flex;
+    flex-wrap: wrap; /* Permitir que las notas fluyan a la siguiente línea */
+    justify-content: center; /* Centra las colecciones */
+    padding: 20px; /* Padding simétrico */
+}
+
+.collection-note {
+    margin: 10px; /* Margin entre notas */
+    background-color: transparent; /* Fondo transparente */
+    border-radius: 10px; /* Bordes redondeados */
+    position: relative; /* Para los botones en hover */
+}

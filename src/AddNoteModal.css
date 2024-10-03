@@ -1,0 +1,85 @@
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6); /* Fondo oscuro semi-transparente */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; /* Asegura que el modal esté encima de otros elementos */
+  }
+  
+  .modal {
+    background-color: #f9f7ff; /* Fondo claro para el modal */
+    padding: 30px; /* Espaciado interno */
+    border-radius: 15px; /* Bordes redondeados */
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2); /* Sombra */
+    width: 400px; /* Ancho del modal */
+    max-width: 90%; /* Se adapta al tamaño de la pantalla */
+  }
+  
+  .modal-title {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .modal-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border: 1px solid #ddd; /* Borde de los inputs */
+    box-sizing: border-box;
+    background-color: #f0f8ff; /* Fondo pastel para los inputs */
+    font-size: 1em;
+  }
+  
+  .modal-textarea {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    background-color: #f0f8ff;
+    font-size: 1em;
+    resize: none; /* Deshabilita el cambio de tamaño del textarea */
+  }
+  
+  .modal-buttons {
+    display: flex;
+    justify-content: space-between; /* Espacio entre los botones */
+    margin-top: 20px;
+  }
+  
+  .modal-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+  }
+  
+  .save-button {
+    background-color: #bde0fe; /* Color pastel para el botón de guardar */
+    color: #333;
+  }
+  
+  .save-button:hover {
+    background-color: #89c2d9; /* Color más oscuro al hacer hover */
+  }
+  
+  .cancel-button {
+    background-color: #ffadd2; /* Color pastel para el botón de cancelar */
+    color: #333;
+  }
+  
+  .cancel-button:hover {
+    background-color: #ff6f91; /* Color más oscuro al hacer hover */
+  }
+  

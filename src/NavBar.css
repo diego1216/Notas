@@ -1,0 +1,40 @@
+/* Barra de navegación que ocupa todo el ancho */
+.navbar {
+    display: flex;
+    justify-content: space-between; /* Espacio entre el título y el botón */
+    align-items: center;
+    padding: 20px 40px; /* Espaciado interno para los lados */
+    background-color: #bde0fe; /* Color pastel */
+    border-radius: 0; /* Eliminar el borde redondeado para cubrir toda la pantalla */
+    width: 100%; /* Asegura que la barra ocupe el 100% del ancho */
+    position: fixed; /* Fijar la barra en la parte superior */
+    top: 0; /* Posición superior */
+    left: 0; /* Alinear a la izquierda */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para darle profundidad */
+    z-index: 1000; /* Asegura que la barra esté encima de otros elementos */
+  }
+  
+  /* Título de la barra de navegación */
+  .navbar-title {
+    margin: 0;
+    color: #213547;
+    font-size: 1.8em; /* Tamaño de fuente mayor para destacar el título */
+  }
+  
+  /* Botón de agregar nota */
+  .navbar-add-button {
+    background-color: #ffadd2; /* Color pastel */
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #ffffff;
+    cursor: pointer;
+    margin-right: 20px; /* Mueve el botón 20px a la izquierda */
+    transition: background-color 0.3s ease;
+  }
+  
+  .navbar-add-button:hover {
+    background-color: #ff8ab1; /* Color pastel más oscuro al pasar el ratón */
+  }
+  

@@ -1,0 +1,35 @@
+/* src/AppBar.css */
+.app-bar {
+    background-color: #bde0fe; /* Color pastel */
+    padding: 20px;
+    display: flex;
+    justify-content: flex-start; /* Cambiar a flex-start para alinear a la izquierda */
+    align-items: center;
+    width: 100%; /* Asegúrate de que se extienda a todo lo ancho */
+    position: fixed; /* Fija la barra en la parte superior */
+    top: 0; /* Alinea la barra a la parte superior */
+    left: 0; /* Alinea la barra a la izquierda */
+    z-index: 1000; /* Asegura que esté encima de otros elementos */
+}
+
+.app-bar h1 {
+    margin: 0; /* Elimina margen del título */
+    font-size: 1.5em; /* Ajusta el tamaño de la fuente del título si es necesario */
+    flex: 1; /* Permite que el título ocupe el espacio disponible */
+}
+
+.app-bar button {
+    background-color: #ffadd2; /* Color pastel para el botón */
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #ffffff;
+    cursor: pointer;
+    margin-right: 70px; /* Mueve un poco más a la izquierda */
+    transition: background-color 0.3s; /* Transición suave para el hover */
+}
+
+.app-bar button:hover {
+    background-color: #ff9eb5; /* Color más claro para el hover */
+}  

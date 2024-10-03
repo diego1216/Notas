@@ -1,0 +1,29 @@
+:root {
+  font-family: 'Noto Sans', sans-serif;
+  color: #000; /* Color del texto general */
+  background-color: #ffffff; /* Color de fondo por defecto */
+  line-height: 1.5;
+  font-weight: 400; /* Regular */
+}
+
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 2.5em; /* Estilo del encabezado principal */
+  font-weight: bold; /* Estilo bold */
+}
+
+h2 {
+  font-size: 2em; /* Estilo de subtítulo */
+  font-weight: 400; /* Estilo regular */
+}
+
+button {
+  cursor: pointer;
+}
